@@ -1,4 +1,4 @@
-import { Dog } from "lucide-react";
+import { Paw } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -6,9 +6,9 @@ import Index from "./pages/Index.jsx";
  */
 export const navItems = [
   {
-    title: "Dogs",
+    title: "Paw-some Pals",
     to: "/",
-    icon: <Dog className="h-4 w-4" />,
+    icon: <Paw className="h-4 w-4" />,
     page: <Index />,
   },
 ];
